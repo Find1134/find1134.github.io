@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>核心页面 on Find 1134的小窝</title>
+        <link>https://find1134.github.io/tags/%E6%A0%B8%E5%BF%83%E9%A1%B5%E9%9D%A2/</link>
+        <description>Recent content in 核心页面 on Find 1134的小窝</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Mon, 22 Sep 2025 20:31:06 +0800</lastBuildDate><atom:link href="https://find1134.github.io/tags/%E6%A0%B8%E5%BF%83%E9%A1%B5%E9%9D%A2/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Find 1134的教学列表</title>
+        <link>https://find1134.github.io/posts/tutorial/</link>
+        <pubDate>Mon, 22 Sep 2025 20:31:06 +0800</pubDate>
+        
+        <guid>https://find1134.github.io/posts/tutorial/</guid>
+        <description>&lt;h2 id=&#34;实用教程分享&#34;&gt;📔实用教程分享
+&lt;/h2&gt;&lt;p&gt;在这里，我将分享我正在用的写代码方式，教你手把手成为一名代码大佬！&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;主要文章&#34;&gt;主要文章
+&lt;/h3&gt;&lt;h4 id=&#34;教你手把手用hugo建立自己的个人博客&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://find1134.github.io/posts/blog-learn&#34; &gt;教你手把手用Hugo建立自己的个人博客&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;发布时间&lt;/strong&gt;：2025年10月1日
+&lt;strong&gt;文章状态&lt;/strong&gt;：进行中
+&lt;strong&gt;作者&lt;/strong&gt;：Find 1134&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘录&lt;/strong&gt;：&lt;em&gt;你是否看到网上那些主播都有自己的个人博客，你是否曾羡慕他们，自己也想拥有个博客？别急，今天，就让你逽哥教你如何建立自己的博客！现在&amp;hellip;&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;html标签大全&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://find1134.github.io/posts/html-tags&#34; &gt;html标签大全&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;发布时间&lt;/strong&gt;：待定
+&lt;strong&gt;文章状态&lt;/strong&gt;：进行中
+&lt;strong&gt;作者&lt;/strong&gt;：Find 1134 &amp;amp; 1150&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘录&lt;/strong&gt;：&lt;em&gt;你是否想撰写一个自己的网页？但因为不会html而放弃？别急，今天这篇文章列出了所有html标签，并列举他们的使用方法&amp;hellip;&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-文章统计&#34;&gt;📈 文章统计
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;文章类型&lt;/th&gt;
+          &lt;th&gt;已完成&lt;/th&gt;
+          &lt;th&gt;进行中&lt;/th&gt;
+          &lt;th&gt;计划中&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;HTML&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Python&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;C++&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;C语言&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;JavaScript&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
+        <title>Find 1134的项目库</title>
+        <link>https://find1134.github.io/posts/project/</link>
+        <pubDate>Mon, 22 Sep 2025 20:02:02 +0800</pubDate>
+        
+        <guid>https://find1134.github.io/posts/project/</guid>
+        <description>&lt;h2 id=&#34;-我的项目作品&#34;&gt;🎮 我的项目作品
+&lt;/h2&gt;&lt;p&gt;这里展示了我独立开发和参与的各种项目，主要聚焦于游戏开发和技术实践。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-主要项目&#34;&gt;🚀 主要项目
+&lt;/h3&gt;&lt;h4 id=&#34;dodge-game---太空躲避游戏&#34;&gt;Dodge Game - 太空躲避游戏
+&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;🕒 开发时间&lt;/strong&gt;：2023年8月&lt;br&gt;
+&lt;strong&gt;🛠️ 技术栈&lt;/strong&gt;：Python + Pygame
+&lt;strong&gt;⭐ 项目状态&lt;/strong&gt;：已完成 ✅&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;项目描述&lt;/strong&gt;：&lt;br&gt;
+2090年，一颗巨大的红超巨星闯入太阳系与太阳产生碰撞，碰撞过程中产生了许多奇异态物质，这些物质形成了一颗颗巨大的红色陨石。玩家需要操控飞船在陨石雨中生存。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;核心功能&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;随机生成的陨石雨系统&lt;/li&gt;
+&lt;li&gt;多级别难度设置&lt;/li&gt;
+&lt;li&gt;实时分数统计&lt;/li&gt;
+&lt;li&gt;粒子特效和音效系统&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;项目链接&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/find1134/dodge-game/releases/download/indev-v1.05/dodge-game-v1.05-indev.zip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;游戏下载&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/find1134/dodge-game&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;源码仓库&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://find1134.github.io/posts/dodge-game&#34; &gt;在线演示&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-项目统计&#34;&gt;📈 项目统计
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;项目类型&lt;/th&gt;
+          &lt;th&gt;完成数量&lt;/th&gt;
+          &lt;th&gt;进行中&lt;/th&gt;
+          &lt;th&gt;计划中&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;游戏开发&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Web应用&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;工具脚本&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;模组/插件&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;2&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
+        <title>关于我</title>
+        <link>https://find1134.github.io/posts/about/</link>
+        <pubDate>Sat, 13 Sep 2025 13:50:03 +0800</pubDate>
+        
+        <guid>https://find1134.github.io/posts/about/</guid>
+        <description>&lt;h2 id=&#34;-你好欢迎来到我的博客&#34;&gt;👋 你好，欢迎来到我的博客！
+&lt;/h2&gt;&lt;p&gt;Hi，别来无恙啊，我是 &lt;strong&gt;Find 1134&lt;/strong&gt;，一名初一学生，真名陈亦逽，2012年7月4日出生。这里是我的个人空间，记录我的技术学习、项目经验和生活思考。&lt;/p&gt;
+&lt;h3 id=&#34;-我目前专注于&#34;&gt;🚀 我目前专注于
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;技术栈&lt;/strong&gt;: CSS&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;领域兴趣&lt;/strong&gt;: Web开发&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;学习方向&lt;/strong&gt;: 如何骑自行车上路&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-经历与技能&#34;&gt;💼 经历与技能
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;2012年7月4日0点&lt;/em&gt;，我出生在一间病房，而这也注定了将来发生的事&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;2016年7月&lt;/em&gt;，我开始接触互联网，同时，我也开始上&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;2019年9月&lt;/em&gt;，我上小学了&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;2022年11月&lt;/em&gt;，我终于是搞懂了html,Markdown&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;2024年1月27日&lt;/em&gt;，我试图用Wikidot建站，但失败后放弃&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;2025年5月21日&lt;/em&gt;，我开始使用Github，Cloudflare，Netlify等网站&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h4 id=&#34;技术技能&#34;&gt;技术技能
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;擅长&lt;/strong&gt;：Markdown，html，Python等&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;不会&lt;/strong&gt;：CSS，C++，C语言&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;正在学习&lt;/strong&gt;：CSS开发&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;如何联系我&#34;&gt;如何联系我
+&lt;/h3&gt;&lt;p&gt;你可以通过以下方式联系我：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;QQ&lt;/strong&gt;: 点击&lt;a class=&#34;link&#34; href=&#34;http://wpa.qq.com/msgrd?v=3&amp;amp;uin=3989613839&amp;amp;site=qq&amp;amp;menu=yes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这里&lt;/a&gt;加我QQ为好友，或者在QQ中输入 &lt;strong&gt;3989613839&lt;/strong&gt; 后即可加我为好友&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;微博&lt;/strong&gt;：点击&lt;a class=&#34;link&#34; href=&#34;https://www.weibo.com/u/7729033415&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;此处&lt;/a&gt;转到我的微博主页&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bilibili&lt;/strong&gt;：点击&lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/3546898545772670&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;此处&lt;/a&gt;跳转至我的Bilibili主页&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
