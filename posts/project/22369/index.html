@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Dodge Game介绍与下载 | Find 1134的小窝</title>
+<meta name="keywords" content="">
+<meta name="description" content="《Dodge Game》是一款基于Python和Pygame开发的星际生存游戏，融合了躲避、射击和策略元素">
+<meta name="author" content="map[bio:一名热爱游戏开发与资源分享的技术博主 email:3989613839@qq.com image:images/avatar.png name:Find 1134]">
+<link rel="canonical" href="https://find1134.github.io/posts/project/22369/">
+<link crossorigin="anonymous" href="https://find1134.github.io/assets/css/stylesheet.a090830a421002426baafbd314e38f149d77b4c48a12ee9312700d770b27fb26.css" integrity="sha256-oJCDCkIQAkJrqvvTFOOPFJ13tMSKEu6TEnANdwsn&#43;yY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://find1134.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://find1134.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://find1134.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://find1134.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://find1134.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://find1134.github.io/posts/project/22369/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://find1134.github.io/posts/project/22369/">
+  <meta property="og:site_name" content="Find 1134的小窝">
+  <meta property="og:title" content="Dodge Game介绍与下载">
+  <meta property="og:description" content="《Dodge Game》是一款基于Python和Pygame开发的星际生存游戏，融合了躲避、射击和策略元素">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-07-27T17:23:51+00:00">
+    <meta property="article:modified_time" content="2025-07-27T17:23:51+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Dodge Game介绍与下载">
+<meta name="twitter:description" content="《Dodge Game》是一款基于Python和Pygame开发的星际生存游戏，融合了躲避、射击和策略元素">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Find 1134的文章列表",
+      "item": "https://find1134.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Find 1134的项目库",
+      "item": "https://find1134.github.io/posts/project/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Dodge Game介绍与下载",
+      "item": "https://find1134.github.io/posts/project/22369/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Dodge Game介绍与下载",
+  "name": "Dodge Game介绍与下载",
+  "description": "《Dodge Game》是一款基于Python和Pygame开发的星际生存游戏，融合了躲避、射击和策略元素",
+  "keywords": [
+    
+  ],
+  "articleBody": " 2090年，一颗巨大的红超巨星闯入太阳系与太阳产生碰撞，碰撞过程中产生了许多等离子态物质，这些物质形成了一颗颗巨大的红色陨石。与此同时，地球上也陷入一片混乱，整个世界枉如一片炼狱，温度上升至恐怖的2000开尔文。太阳系中，水星金星先后被新的太阳吞噬，且其他行星也在缓慢朝主恒星方向移动。就在地球即将被吞噬之时，地球上的幸存者Alex与其妻子Anna乘坐宇宙飞船逃离太阳系，寻找新的家园。在旅途中他们遇到了许多碰撞形成的红色陨石，他们躲过陨石，或是用子弹击碎陨石。最后，Alex找到了这场混乱的元凶——是一个巨大的彩色方块，他还在不断地产生红色陨石，历经千辛万苦，Alex与Anna已到达花甲之年才击碎了彩色方块，但问题来了，他们应该何去何从？\n游戏玩法特色 《Dodge Game》是一款基于Python和Pygame开发的星际生存游戏，融合了躲避、射击和策略元素。\n核心玩法 障碍躲避：在太空中灵活躲避不断袭来的红色陨石 子弹射击：使用飞船武器击碎无法躲避的陨石 Boss战斗：挑战产生陨石的巨大彩色方块Boss 多难度系统：从简单到\"你确定？“四个难度等级 游戏特色 渐进式关卡设计：22个精心设计的关卡，难度逐步提升 角色成长系统：积累分数，解锁新能力 多用户支持：支持最多5个用户存档 智能障碍物：障碍物具有生命值系统，需要策略性击破 游戏系统要求 最低配置 操作系统：Windows 10及以上 内存：2 GB 存储空间：1 GB 推荐配置 操作系统：Windows 11 内存：8 GB或更高 存储空间：10 GB 版本更新历史 版本号 发布日期 主要更新内容 v1.00 2025年7月27日 初始版本发布，包含基础游戏功能 v1.05 2025年8月15日 优化游戏性能，修复已知bug 游戏机制详解 难度系统 游戏提供四种难度模式，每种模式都有独特的挑战：\n简单模式：适合新手玩家，障碍物速度较慢 普通模式：平衡的挑战性，适合大多数玩家 困难模式：为寻求挑战的玩家设计 你确定？模式：极限挑战，仅推荐高手尝试 特殊关卡设计 第21关：Boss战，挑战巨大的彩色方块 第22关：无尽模式，考验玩家的极限生存能力 存档系统 游戏支持自动存档功能，玩家可以随时暂停并保存游戏进度。系统会记录：\n当前关卡进度 获得的分数 游戏设置偏好 用户个人数据 下载游戏 版本 发布日期 下载链接 1.05 2025年8月15日 点击下载 1.00 2025年7月27日 点击下载 游戏技巧分享 新手建议 从简单模式开始：熟悉游戏机制后再挑战更高难度 合理使用免疫次数：每个关卡有2次免疫碰撞的机会 掌握射击节奏：不要连续快速射击，注意冷却时间 高级技巧 预判障碍物轨迹：观察障碍物运动模式，提前规避 Boss战策略：集中火力攻击Boss的弱点区域 资源管理：在简单关卡积累分数，为困难关卡做准备 开发者说明 《Dodge Game》由独立游戏开发者使用Python和Pygame库精心打造。游戏注重玩家体验，不断根据玩家反馈进行优化更新。\n如果您在游戏过程中遇到任何问题或有改进建议，欢迎通过游戏内的反馈系统联系我们。您的每一条反馈都是我们改进游戏的宝贵财富。\n踏上星际求生之旅，帮助Alex和Anna找到新的家园！ 🚀✨\n注意：游戏仍在持续开发中，后续版本将带来更多精彩内容和功能优化。\n",
+  "wordCount" : "81",
+  "inLanguage": "en",
+  "datePublished": "2025-07-27T17:23:51Z",
+  "dateModified": "2025-07-27T17:23:51Z",
+  "author":{
+    "@type": "Person",
+    "name": {"bio":"一名热爱游戏开发与资源分享的技术博主","email":"3989613839@qq.com","image":"images/avatar.png","name":"Find 1134"}
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://find1134.github.io/posts/project/22369/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Find 1134的小窝",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://find1134.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://find1134.github.io/" accesskey="h" title="Find 1134的小窝 (Alt + H)">Find 1134的小窝</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://find1134.github.io/" title="首页">
+                    <span>首页</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://find1134.github.io/posts/" title="文章">
+                    <span>文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://find1134.github.io/archives/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://find1134.github.io/categories/" title="分类">
+                    <span>分类</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://find1134.github.io/tags/" title="标签">
+                    <span>标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://find1134.github.io/about/" title="关于">
+                    <span>关于</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://find1134.github.io/search/" title="搜索 (Alt &#43; /)" accesskey=/>
+                    <span>搜索</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Dodge Game介绍与下载
+    </h1>
+    <div class="post-description">
+      《Dodge Game》是一款基于Python和Pygame开发的星际生存游戏，融合了躲避、射击和策略元素
+    </div>
+    <div class="post-meta"><span title='2025-07-27 17:23:51 +0000 UTC'>July 27, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>81 words</span>&nbsp;·&nbsp;<span>map[bio:一名热爱游戏开发与资源分享的技术博主 email:3989613839@qq.com image:images/avatar.png name:Find 1134]</span>
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e6%b8%b8%e6%88%8f%e7%8e%a9%e6%b3%95%e7%89%b9%e8%89%b2" aria-label="游戏玩法特色">游戏玩法特色</a><ul>
+                        
+                <li>
+                    <a href="#%e6%a0%b8%e5%bf%83%e7%8e%a9%e6%b3%95" aria-label="核心玩法">核心玩法</a></li>
+                <li>
+                    <a href="#%e6%b8%b8%e6%88%8f%e7%89%b9%e8%89%b2" aria-label="游戏特色">游戏特色</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e6%b8%b8%e6%88%8f%e7%b3%bb%e7%bb%9f%e8%a6%81%e6%b1%82" aria-label="游戏系统要求">游戏系统要求</a><ul>
+                        
+                <li>
+                    <a href="#%e6%9c%80%e4%bd%8e%e9%85%8d%e7%bd%ae" aria-label="最低配置">最低配置</a></li>
+                <li>
+                    <a href="#%e6%8e%a8%e8%8d%90%e9%85%8d%e7%bd%ae" aria-label="推荐配置">推荐配置</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e7%89%88%e6%9c%ac%e6%9b%b4%e6%96%b0%e5%8e%86%e5%8f%b2" aria-label="版本更新历史">版本更新历史</a></li>
+                <li>
+                    <a href="#%e6%b8%b8%e6%88%8f%e6%9c%ba%e5%88%b6%e8%af%a6%e8%a7%a3" aria-label="游戏机制详解">游戏机制详解</a><ul>
+                        
+                <li>
+                    <a href="#%e9%9a%be%e5%ba%a6%e7%b3%bb%e7%bb%9f" aria-label="难度系统">难度系统</a></li>
+                <li>
+                    <a href="#%e7%89%b9%e6%ae%8a%e5%85%b3%e5%8d%a1%e8%ae%be%e8%ae%a1" aria-label="特殊关卡设计">特殊关卡设计</a></li>
+                <li>
+                    <a href="#%e5%ad%98%e6%a1%a3%e7%b3%bb%e7%bb%9f" aria-label="存档系统">存档系统</a></li>
+                <li>
+                    <a href="#%e4%b8%8b%e8%bd%bd%e6%b8%b8%e6%88%8f" aria-label="下载游戏">下载游戏</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e6%b8%b8%e6%88%8f%e6%8a%80%e5%b7%a7%e5%88%86%e4%ba%ab" aria-label="游戏技巧分享">游戏技巧分享</a><ul>
+                        
+                <li>
+                    <a href="#%e6%96%b0%e6%89%8b%e5%bb%ba%e8%ae%ae" aria-label="新手建议">新手建议</a></li>
+                <li>
+                    <a href="#%e9%ab%98%e7%ba%a7%e6%8a%80%e5%b7%a7" aria-label="高级技巧">高级技巧</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e5%bc%80%e5%8f%91%e8%80%85%e8%af%b4%e6%98%8e" aria-label="开发者说明">开发者说明</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><blockquote>
+<p>2090年，一颗巨大的红超巨星闯入太阳系与太阳产生碰撞，碰撞过程中产生了许多等离子态物质，这些物质形成了一颗颗巨大的红色陨石。与此同时，地球上也陷入一片混乱，整个世界枉如一片炼狱，温度上升至恐怖的2000开尔文。太阳系中，水星金星先后被新的太阳吞噬，且其他行星也在缓慢朝主恒星方向移动。就在地球即将被吞噬之时，地球上的幸存者Alex与其妻子Anna乘坐宇宙飞船逃离太阳系，寻找新的家园。在旅途中他们遇到了许多碰撞形成的红色陨石，他们躲过陨石，或是用子弹击碎陨石。最后，Alex找到了这场混乱的元凶——是一个巨大的彩色方块，他还在不断地产生红色陨石，历经千辛万苦，Alex与Anna已到达花甲之年才击碎了彩色方块，但问题来了，他们应该何去何从？</p>
+</blockquote>
+<h2 id="游戏玩法特色">游戏玩法特色<a hidden class="anchor" aria-hidden="true" href="#游戏玩法特色">#</a></h2>
+<p>《Dodge Game》是一款基于Python和Pygame开发的星际生存游戏，融合了躲避、射击和策略元素。</p>
+<h3 id="核心玩法">核心玩法<a hidden class="anchor" aria-hidden="true" href="#核心玩法">#</a></h3>
+<ul>
+<li><strong>障碍躲避</strong>：在太空中灵活躲避不断袭来的红色陨石</li>
+<li><strong>子弹射击</strong>：使用飞船武器击碎无法躲避的陨石</li>
+<li><strong>Boss战斗</strong>：挑战产生陨石的巨大彩色方块Boss</li>
+<li><strong>多难度系统</strong>：从简单到&quot;你确定？&ldquo;四个难度等级</li>
+</ul>
+<h3 id="游戏特色">游戏特色<a hidden class="anchor" aria-hidden="true" href="#游戏特色">#</a></h3>
+<ol>
+<li><strong>渐进式关卡设计</strong>：22个精心设计的关卡，难度逐步提升</li>
+<li><strong>角色成长系统</strong>：积累分数，解锁新能力</li>
+<li><strong>多用户支持</strong>：支持最多5个用户存档</li>
+<li><strong>智能障碍物</strong>：障碍物具有生命值系统，需要策略性击破</li>
+</ol>
+<h2 id="游戏系统要求">游戏系统要求<a hidden class="anchor" aria-hidden="true" href="#游戏系统要求">#</a></h2>
+<h3 id="最低配置">最低配置<a hidden class="anchor" aria-hidden="true" href="#最低配置">#</a></h3>
+<ul>
+<li><strong>操作系统</strong>：Windows 10及以上</li>
+<li><strong>内存</strong>：2 GB</li>
+<li><strong>存储空间</strong>：1 GB</li>
+</ul>
+<h3 id="推荐配置">推荐配置<a hidden class="anchor" aria-hidden="true" href="#推荐配置">#</a></h3>
+<ul>
+<li><strong>操作系统</strong>：Windows 11</li>
+<li><strong>内存</strong>：8 GB或更高</li>
+<li><strong>存储空间</strong>：10 GB</li>
+</ul>
+<h2 id="版本更新历史">版本更新历史<a hidden class="anchor" aria-hidden="true" href="#版本更新历史">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">版本号</th>
+          <th style="text-align: left">发布日期</th>
+          <th style="text-align: left">主要更新内容</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">v1.00</td>
+          <td style="text-align: left">2025年7月27日</td>
+          <td style="text-align: left">初始版本发布，包含基础游戏功能</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">v1.05</td>
+          <td style="text-align: left">2025年8月15日</td>
+          <td style="text-align: left">优化游戏性能，修复已知bug</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="游戏机制详解">游戏机制详解<a hidden class="anchor" aria-hidden="true" href="#游戏机制详解">#</a></h2>
+<h3 id="难度系统">难度系统<a hidden class="anchor" aria-hidden="true" href="#难度系统">#</a></h3>
+<p>游戏提供四种难度模式，每种模式都有独特的挑战：</p>
+<ul>
+<li><strong>简单模式</strong>：适合新手玩家，障碍物速度较慢</li>
+<li><strong>普通模式</strong>：平衡的挑战性，适合大多数玩家</li>
+<li><strong>困难模式</strong>：为寻求挑战的玩家设计</li>
+<li><strong>你确定？模式</strong>：极限挑战，仅推荐高手尝试</li>
+</ul>
+<h3 id="特殊关卡设计">特殊关卡设计<a hidden class="anchor" aria-hidden="true" href="#特殊关卡设计">#</a></h3>
+<ul>
+<li><strong>第21关</strong>：Boss战，挑战巨大的彩色方块</li>
+<li><strong>第22关</strong>：无尽模式，考验玩家的极限生存能力</li>
+</ul>
+<h3 id="存档系统">存档系统<a hidden class="anchor" aria-hidden="true" href="#存档系统">#</a></h3>
+<p>游戏支持自动存档功能，玩家可以随时暂停并保存游戏进度。系统会记录：</p>
+<ul>
+<li>当前关卡进度</li>
+<li>获得的分数</li>
+<li>游戏设置偏好</li>
+<li>用户个人数据</li>
+</ul>
+<h3 id="下载游戏">下载游戏<a hidden class="anchor" aria-hidden="true" href="#下载游戏">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">版本</th>
+          <th style="text-align: left">发布日期</th>
+          <th style="text-align: left">下载链接</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">1.05</td>
+          <td style="text-align: left">2025年8月15日</td>
+          <td style="text-align: left"><a href="https://github.com/find1134/dodge-game/releases/download/i1.00/dodge-game_indev_v1.05.zip">点击下载</a></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">1.00</td>
+          <td style="text-align: left">2025年7月27日</td>
+          <td style="text-align: left"><a href="https://github.com/find1134/dodge-game/releases/download/i1.00/dodge-game_indev_v1.00.zip">点击下载</a></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="游戏技巧分享">游戏技巧分享<a hidden class="anchor" aria-hidden="true" href="#游戏技巧分享">#</a></h2>
+<h3 id="新手建议">新手建议<a hidden class="anchor" aria-hidden="true" href="#新手建议">#</a></h3>
+<ol>
+<li><strong>从简单模式开始</strong>：熟悉游戏机制后再挑战更高难度</li>
+<li><strong>合理使用免疫次数</strong>：每个关卡有2次免疫碰撞的机会</li>
+<li><strong>掌握射击节奏</strong>：不要连续快速射击，注意冷却时间</li>
+</ol>
+<h3 id="高级技巧">高级技巧<a hidden class="anchor" aria-hidden="true" href="#高级技巧">#</a></h3>
+<ol>
+<li><strong>预判障碍物轨迹</strong>：观察障碍物运动模式，提前规避</li>
+<li><strong>Boss战策略</strong>：集中火力攻击Boss的弱点区域</li>
+<li><strong>资源管理</strong>：在简单关卡积累分数，为困难关卡做准备</li>
+</ol>
+<h2 id="开发者说明">开发者说明<a hidden class="anchor" aria-hidden="true" href="#开发者说明">#</a></h2>
+<p>《Dodge Game》由独立游戏开发者使用Python和Pygame库精心打造。游戏注重玩家体验，不断根据玩家反馈进行优化更新。</p>
+<p>如果您在游戏过程中遇到任何问题或有改进建议，欢迎通过游戏内的反馈系统联系我们。您的每一条反馈都是我们改进游戏的宝贵财富。</p>
+<hr>
+<p><strong>踏上星际求生之旅，帮助Alex和Anna找到新的家园！</strong> 🚀✨</p>
+<p><em>注意：游戏仍在持续开发中，后续版本将带来更多精彩内容和功能优化。</em></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+<div class="comment-notice">
+    <p>💡 提示：评论后如需回复，请访问 <a href="https://github.com/find1134/find1134.github.io/issues">GitHub Issues</a> 页面</p>
+</div>
+
+<section class="comments">
+    <h2>评论</h2>
+    <script src="https://utteranc.es/client.js"
+            repo="find1134/find1134.github.io"
+            issue-term="pathname"
+            label="评论"
+            theme="preferred-color-scheme"
+            crossorigin="anonymous"
+            async>
+    </script>
+</section>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://find1134.github.io/">Find 1134的小窝</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
