@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>植物大战僵尸Python版 | Find 1134的小窝</title>
+<meta name="keywords" content="Python, 植物大战僵尸">
+<meta name="description" content="一个使用Python完全重制的植物大战僵尸游戏，目前包含3种僵尸和4种植物，未来计划还原全部68种游戏元素。">
+<meta name="author" content="map[bio:一名热爱游戏开发与资源分享的技术博主 email:3989613839@qq.com image:images/avatar.png name:Find 1134]">
+<link rel="canonical" href="https://find1134.github.io/posts/project/32256/">
+<link crossorigin="anonymous" href="https://find1134.github.io/assets/css/stylesheet.a090830a421002426baafbd314e38f149d77b4c48a12ee9312700d770b27fb26.css" integrity="sha256-oJCDCkIQAkJrqvvTFOOPFJ13tMSKEu6TEnANdwsn&#43;yY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://find1134.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://find1134.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://find1134.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://find1134.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://find1134.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://find1134.github.io/posts/project/32256/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://find1134.github.io/posts/project/32256/">
+  <meta property="og:site_name" content="Find 1134的小窝">
+  <meta property="og:title" content="植物大战僵尸Python版">
+  <meta property="og:description" content="一个使用Python完全重制的植物大战僵尸游戏，目前包含3种僵尸和4种植物，未来计划还原全部68种游戏元素。">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-10-04T12:19:34+08:00">
+    <meta property="article:modified_time" content="2025-10-04T12:19:34+08:00">
+    <meta property="article:tag" content="植物大战僵尸">
+    <meta property="article:tag" content="Python">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="植物大战僵尸Python版">
+<meta name="twitter:description" content="一个使用Python完全重制的植物大战僵尸游戏，目前包含3种僵尸和4种植物，未来计划还原全部68种游戏元素。">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Find 1134的文章列表",
+      "item": "https://find1134.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Find 1134的项目库",
+      "item": "https://find1134.github.io/posts/project/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "植物大战僵尸Python版",
+      "item": "https://find1134.github.io/posts/project/32256/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "植物大战僵尸Python版",
+  "name": "植物大战僵尸Python版",
+  "description": "一个使用Python完全重制的植物大战僵尸游戏，目前包含3种僵尸和4种植物，未来计划还原全部68种游戏元素。",
+  "keywords": [
+    "Python", "植物大战僵尸"
+  ],
+  "articleBody": " 你是否想过用Python重现经典的植物大战僵尸？现在，这个梦想成真了！植物大战僵尸Python版带你体验用代码重构经典的乐趣…\n植物大战僵尸Python版是什么？ 植物大战僵尸Python版是一款使用Python语言开发的塔防游戏，玩家需要布置各种植物来抵御僵尸的进攻，来打僵尸，亦或是看着戴夫的脑子被吃，选择权在你的手上。\n植物大战僵尸Python版的目标是什么？ 植物大战僵尸Python版的目标是努力还原原版的植物大战僵尸，在这个世界里，核污染导致人们都变异成为可怕的僵尸，你和你的邻居戴夫躲在屋子里没变异成僵尸，成为整个地球上唯一两个幸存者，而你要拯救世界，夺取到让僵尸变回人的解药，但解药被可恶的埃德加博士夺走，而你要躲到解药，但这路上许多僵尸都在阻挠，你只得使用戴夫的发明——变异植物，他们可以攻击敌人，用变异植物你们很快击败这些僵尸…\n植物大战僵尸Python版适用年龄是多少？ 我们推荐12岁以上人群游玩本游戏，成年人也不要担心，成年人也受欢迎。\n植物大战僵尸Python版的最低配置是什么 本游戏要求的最低配置如下：\nWindows 10以上系统（包括Windows 10） 2 GB以上内存 120 MB以上的存储空间 🎮 植物大战僵尸Python版的特色 植物大战僵尸Python版完全使用Python编写\n🛠️ 植物大战僵尸Python版的开放信息 当前版本：v0.12a (测试版) 已实现：3种僵尸、4种植物 开发计划：还原全部23种僵尸、45种植物 项目类型：开源学习项目 如何下载到植物大战僵尸Python版？ 以下是植物大战僵尸Python版的下载地址：\n版本数 版本号 类型 发布日期 下载地址 5 v0.20.0 Indev版本 待定 未开发下载 4 v0.13.0 Indev版本 待定 未开放下载 3 v0.12b/v0.12.1 Indev版本 预计10月13日 未开放下载 2 v0.12a/v0.12.0 Indev版本 2025年10月5日 直链下载 1 v0.04.0 Indev版本 2025年9月30日 直链下载 注意事项：\n如果遇到Windows安全警告，请点击\"更多信息\"→“仍要运行” 确保电脑已安装最新版本的Windows系统更新 ",
+  "wordCount" : "61",
+  "inLanguage": "en",
+  "datePublished": "2025-10-04T12:19:34+08:00",
+  "dateModified": "2025-10-04T12:19:34+08:00",
+  "author":{
+    "@type": "Person",
+    "name": {"bio":"一名热爱游戏开发与资源分享的技术博主","email":"3989613839@qq.com","image":"images/avatar.png","name":"Find 1134"}
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://find1134.github.io/posts/project/32256/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Find 1134的小窝",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://find1134.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://find1134.github.io/" accesskey="h" title="Find 1134的小窝 (Alt + H)">Find 1134的小窝</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://find1134.github.io/" title="首页">
+                    <span>首页</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://find1134.github.io/posts/" title="文章">
+                    <span>文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://find1134.github.io/archives/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://find1134.github.io/categories/" title="分类">
+                    <span>分类</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://find1134.github.io/tags/" title="标签">
+                    <span>标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://find1134.github.io/about/" title="关于">
+                    <span>关于</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://find1134.github.io/search/" title="搜索 (Alt &#43; /)" accesskey=/>
+                    <span>搜索</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      植物大战僵尸Python版
+    </h1>
+    <div class="post-description">
+      一个使用Python完全重制的植物大战僵尸游戏，目前包含3种僵尸和4种植物，未来计划还原全部68种游戏元素。
+    </div>
+    <div class="post-meta"><span title='2025-10-04 12:19:34 +0800 CST'>October 4, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>61 words</span>&nbsp;·&nbsp;<span>map[bio:一名热爱游戏开发与资源分享的技术博主 email:3989613839@qq.com image:images/avatar.png name:Find 1134]</span>
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e6%a4%8d%e7%89%a9%e5%a4%a7%e6%88%98%e5%83%b5%e5%b0%b8python%e7%89%88%e6%98%af%e4%bb%80%e4%b9%88" aria-label="植物大战僵尸Python版是什么？">植物大战僵尸Python版是什么？</a></li>
+                <li>
+                    <a href="#%e6%a4%8d%e7%89%a9%e5%a4%a7%e6%88%98%e5%83%b5%e5%b0%b8python%e7%89%88%e7%9a%84%e7%9b%ae%e6%a0%87%e6%98%af%e4%bb%80%e4%b9%88" aria-label="植物大战僵尸Python版的目标是什么？">植物大战僵尸Python版的目标是什么？</a></li>
+                <li>
+                    <a href="#%e6%a4%8d%e7%89%a9%e5%a4%a7%e6%88%98%e5%83%b5%e5%b0%b8python%e7%89%88%e9%80%82%e7%94%a8%e5%b9%b4%e9%be%84%e6%98%af%e5%a4%9a%e5%b0%91" aria-label="植物大战僵尸Python版适用年龄是多少？">植物大战僵尸Python版适用年龄是多少？</a></li>
+                <li>
+                    <a href="#%e6%a4%8d%e7%89%a9%e5%a4%a7%e6%88%98%e5%83%b5%e5%b0%b8python%e7%89%88%e7%9a%84%e6%9c%80%e4%bd%8e%e9%85%8d%e7%bd%ae%e6%98%af%e4%bb%80%e4%b9%88" aria-label="植物大战僵尸Python版的最低配置是什么">植物大战僵尸Python版的最低配置是什么</a></li>
+                <li>
+                    <a href="#-%e6%a4%8d%e7%89%a9%e5%a4%a7%e6%88%98%e5%83%b5%e5%b0%b8python%e7%89%88%e7%9a%84%e7%89%b9%e8%89%b2" aria-label="🎮 植物大战僵尸Python版的特色">🎮 植物大战僵尸Python版的特色</a></li>
+                <li>
+                    <a href="#-%e6%a4%8d%e7%89%a9%e5%a4%a7%e6%88%98%e5%83%b5%e5%b0%b8python%e7%89%88%e7%9a%84%e5%bc%80%e6%94%be%e4%bf%a1%e6%81%af" aria-label="🛠️ 植物大战僵尸Python版的开放信息">🛠️ 植物大战僵尸Python版的开放信息</a></li>
+                <li>
+                    <a href="#%e5%a6%82%e4%bd%95%e4%b8%8b%e8%bd%bd%e5%88%b0%e6%a4%8d%e7%89%a9%e5%a4%a7%e6%88%98%e5%83%b5%e5%b0%b8python%e7%89%88" aria-label="如何下载到植物大战僵尸Python版？">如何下载到植物大战僵尸Python版？</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><blockquote>
+<p>你是否想过用Python重现经典的植物大战僵尸？现在，这个梦想成真了！植物大战僵尸Python版带你体验用代码重构经典的乐趣&hellip;</p>
+</blockquote>
+<h3 id="植物大战僵尸python版是什么"><strong>植物大战僵尸Python版</strong>是什么？<a hidden class="anchor" aria-hidden="true" href="#植物大战僵尸python版是什么">#</a></h3>
+<p>植物大战僵尸Python版是一款使用Python语言开发的塔防游戏，玩家需要布置各种植物来抵御僵尸的进攻，来打僵尸，亦或是看着戴夫的脑子被吃，选择权在你的手上。</p>
+<h3 id="植物大战僵尸python版的目标是什么"><strong>植物大战僵尸Python版</strong>的目标是什么？<a hidden class="anchor" aria-hidden="true" href="#植物大战僵尸python版的目标是什么">#</a></h3>
+<p><strong>植物大战僵尸Python版</strong>的目标是努力还原原版的<a href="https://baike.baidu.com/item/%E6%A4%8D%E7%89%A9%E5%A4%A7%E6%88%98%E5%83%B5%E5%B0%B8/84892">植物大战僵尸</a>，在这个世界里，核污染导致人们都变异成为可怕的僵尸，你和你的邻居戴夫躲在屋子里没变异成僵尸，成为整个地球上唯一两个幸存者，而你要拯救世界，夺取到让僵尸变回人的解药，但解药被可恶的埃德加博士夺走，而你要躲到解药，但这路上许多僵尸都在阻挠，你只得使用戴夫的发明——变异植物，他们可以攻击敌人，用变异植物你们很快击败这些僵尸&hellip;</p>
+<p><img alt="游戏主界面" loading="lazy" src="https://find1134.github.io/images/plantsvszombiespython/home_ui.png"></p>
+<h3 id="植物大战僵尸python版适用年龄是多少"><strong>植物大战僵尸Python版</strong>适用年龄是多少？<a hidden class="anchor" aria-hidden="true" href="#植物大战僵尸python版适用年龄是多少">#</a></h3>
+<p>我们推荐12岁以上人群游玩本游戏，成年人也不要担心，成年人也受欢迎。</p>
+<p><img alt="选关界面" loading="lazy" src="https://find1134.github.io/images/plantsvszombiespython/levels_ui.png"></p>
+<h3 id="植物大战僵尸python版的最低配置是什么"><strong>植物大战僵尸Python版</strong>的最低配置是什么<a hidden class="anchor" aria-hidden="true" href="#植物大战僵尸python版的最低配置是什么">#</a></h3>
+<p>本游戏要求的最低配置如下：</p>
+<ul>
+<li>Windows 10以上系统（包括Windows 10）</li>
+<li>2 GB以上内存</li>
+<li>120 MB以上的存储空间</li>
+</ul>
+<h3 id="-植物大战僵尸python版的特色">🎮 <strong>植物大战僵尸Python版</strong>的特色<a hidden class="anchor" aria-hidden="true" href="#-植物大战僵尸python版的特色">#</a></h3>
+<p><strong>植物大战僵尸Python版</strong>完全使用Python编写</p>
+<h3 id="-植物大战僵尸python版的开放信息">🛠️ <strong>植物大战僵尸Python版</strong>的开放信息<a hidden class="anchor" aria-hidden="true" href="#-植物大战僵尸python版的开放信息">#</a></h3>
+<ul>
+<li><strong>当前版本</strong>：v0.12a (测试版)</li>
+<li><strong>已实现</strong>：3种僵尸、4种植物</li>
+<li><strong>开发计划</strong>：还原全部23种僵尸、45种植物</li>
+<li><strong>项目类型</strong>：开源学习项目</li>
+</ul>
+<h3 id="如何下载到植物大战僵尸python版">如何下载到<strong>植物大战僵尸Python版</strong>？<a hidden class="anchor" aria-hidden="true" href="#如何下载到植物大战僵尸python版">#</a></h3>
+<p>以下是<strong>植物大战僵尸Python版</strong>的下载地址：</p>
+<table>
+  <thead>
+      <tr>
+          <th>版本数</th>
+          <th>版本号</th>
+          <th>类型</th>
+          <th>发布日期</th>
+          <th>下载地址</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>5</td>
+          <td>v0.20.0</td>
+          <td>Indev版本</td>
+          <td>待定</td>
+          <td>未开发下载</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>v0.13.0</td>
+          <td>Indev版本</td>
+          <td>待定</td>
+          <td>未开放下载</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>v0.12b/v0.12.1</td>
+          <td>Indev版本</td>
+          <td>预计10月13日</td>
+          <td>未开放下载</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>v0.12a/v0.12.0</td>
+          <td>Indev版本</td>
+          <td>2025年10月5日</td>
+          <td><a href="http://github.com/find1134/find1134.github.io/releases/download/v0.12.0/PlantsVsZombiesPython_v0.12a.zip">直链下载</a></td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td>v0.04.0</td>
+          <td>Indev版本</td>
+          <td>2025年9月30日</td>
+          <td><a href="http://github.com/find1134/find1134.github.io/releases/download/v0.04/PlantsVsZombies_v0.04.zip">直链下载</a></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>注意事项：</strong></p>
+<ul>
+<li>如果遇到Windows安全警告，请点击&quot;更多信息&quot;→&ldquo;仍要运行&rdquo;</li>
+<li>确保电脑已安装最新版本的Windows系统更新</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://find1134.github.io/tags/%E6%A4%8D%E7%89%A9%E5%A4%A7%E6%88%98%E5%83%B5%E5%B0%B8/">植物大战僵尸</a></li>
+      <li><a href="https://find1134.github.io/tags/python/">Python</a></li>
+    </ul>
+  </footer>
+<div class="comment-notice">
+    <p>💡 提示：评论后如需回复，请访问 <a href="https://github.com/find1134/find1134.github.io/issues">GitHub Issues</a> 页面</p>
+</div>
+
+<section class="comments">
+    <h2>评论</h2>
+    <script src="https://utteranc.es/client.js"
+            repo="find1134/find1134.github.io"
+            issue-term="pathname"
+            label="评论"
+            theme="preferred-color-scheme"
+            crossorigin="anonymous"
+            async>
+    </script>
+</section>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://find1134.github.io/">Find 1134的小窝</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

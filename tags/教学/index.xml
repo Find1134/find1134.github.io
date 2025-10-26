@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>教学 on Find 1134的小窝</title>
+    <link>https://find1134.github.io/tags/%E6%95%99%E5%AD%A6/</link>
+    <description>Recent content in 教学 on Find 1134的小窝</description>
+    <generator>Hugo -- 0.151.2</generator>
+    <language>zh-cn</language>
+    <managingEditor>3989613839@qq.com (Find 1134)</managingEditor>
+    <webMaster>3989613839@qq.com (Find 1134)</webMaster>
+    <lastBuildDate>Wed, 01 Oct 2025 12:24:25 +0800</lastBuildDate>
+    <atom:link href="https://find1134.github.io/tags/%E6%95%99%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>教你如何用Hugo建立自己的博客</title>
+      <link>https://find1134.github.io/posts/tutorial/31507/31507/</link>
+      <pubDate>Wed, 01 Oct 2025 12:24:25 +0800</pubDate><author>3989613839@qq.com (Find 1134)</author>
+      <guid>https://find1134.github.io/posts/tutorial/31507/31507/</guid>
+      <description>教你如何用Hugo搭建自己的博客</description>
+    </item>
+  </channel>
+</rss>

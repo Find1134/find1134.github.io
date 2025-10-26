@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Find 1134的项目库 on Find 1134的小窝</title>
+    <link>https://find1134.github.io/posts/project/</link>
+    <description>Recent content in Find 1134的项目库 on Find 1134的小窝</description>
+    <generator>Hugo -- 0.151.2</generator>
+    <language>zh-cn</language>
+    <managingEditor>3989613839@qq.com (Find 1134)</managingEditor>
+    <webMaster>3989613839@qq.com (Find 1134)</webMaster>
+    <lastBuildDate>Sat, 04 Oct 2025 12:19:34 +0800</lastBuildDate>
+    <atom:link href="https://find1134.github.io/posts/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>植物大战僵尸Python版</title>
+      <link>https://find1134.github.io/posts/project/32256/</link>
+      <pubDate>Sat, 04 Oct 2025 12:19:34 +0800</pubDate><author>3989613839@qq.com (Find 1134)</author>
+      <guid>https://find1134.github.io/posts/project/32256/</guid>
+      <description>一个使用Python完全重制的植物大战僵尸游戏，目前包含3种僵尸和4种植物，未来计划还原全部68种游戏元素。</description>
+    </item>
+    <item>
+      <title>Dodge Game介绍与下载</title>
+      <link>https://find1134.github.io/posts/project/22369/</link>
+      <pubDate>Sun, 27 Jul 2025 17:23:51 +0000</pubDate><author>3989613839@qq.com (Find 1134)</author>
+      <guid>https://find1134.github.io/posts/project/22369/</guid>
+      <description>《Dodge Game》是一款基于Python和Pygame开发的星际生存游戏，融合了躲避、射击和策略元素</description>
+    </item>
+  </channel>
+</rss>
